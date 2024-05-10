@@ -1,0 +1,443 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    border: none;
+}
+
+header{
+    background-image: url(./img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid blue;
+    height: 1100px;
+    padding-bottom: 100px;
+    nav{
+        
+        display: flex;
+        max-width: 2700px;
+        justify-content: space-between;
+        .logo{
+            margin-left: 40px;
+            line-height: 80px;
+        }
+        .nav_ul{
+            display: flex;
+            justify-content: space-around;
+            width: 30%;
+            margin-top: 30px;
+            font-size: 13px;
+        }
+        .icon_purchase{
+            .icooo{
+                text-align: center;
+                margin-top: 30px;
+                margin-right: 40px;
+                border: 2px solid#9400FF;
+                background-color: #9400FF;
+                border-radius: 200px;
+                width: 91px;
+                height: 21px;
+                font-size: 13px;
+            }
+        }
+    }
+
+    .info{
+        margin: 250px 0 0 100px;
+        .h1_info{
+            line-height: 62px;
+            font-size: 48px;
+        }
+        .span_info{
+            background: #9400FF;
+            border-radius: 200px;
+            text-align: center;
+            padding: 15px 46px;
+
+        }
+    }
+
+    .more_info{
+        flex-wrap: wrap;
+        font-size: 16px;
+        margin-left: 80px;
+        margin-top: 100px;
+        display: flex;
+        max-width: 740px;
+        justify-content: space-around;
+        flex-direction: row;
+        p{
+            margin: 10px 0;
+        }
+    }
+}
+
+main{
+    .main_icons{
+        display: flex;
+        justify-content: space-around;
+        max-width: 2660px;
+        align-items: center;
+        margin: 30px;
+    }
+    .p_more_icons{
+        margin: 20px;
+        
+        line-height: 30px;
+    }
+    .span_more_icons{
+        background: #9400FF;
+        border-radius: 200px;
+        text-align: center;
+        padding: 15px 46px;
+    }
+    .icons_3d{
+        text-align: center;
+        margin: 200px 0 100px 0;
+    }
+    .big{
+        text-align: center;
+        margin: 200px 0 100px 0;
+        img{
+            margin: 100px 0 0 0;
+        }
+    }
+    .icon_types{ 
+       display: flex;
+       justify-content: center;
+       flex-wrap: wrap;
+       img{
+        border-top: 2px solid rgb(54, 50, 50);
+        padding-top: 50px;
+        padding-bottom: 50px;
+       }
+    }
+    
+    .request{
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        max-width: 3000px;
+        justify-content: space-around;
+        .left{
+            margin-right: 50px;
+            .h1_request{
+                margin: 50px 0;
+            }
+            .p_request{
+                line-height: 30px;
+            }
+            .span_request{
+                background: #9400FF;
+            border-radius: 200px;
+            text-align: center;
+            padding: 15px 46px;
+            }
+            img{
+                margin: 50px;
+            }
+        }
+    }
+}
+
+footer{
+     background-image: url(./img/Frame\ \(6\).png);
+     text-align: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 432px;
+    .h1_footer{
+        padding: 150px 0 30px 0;
+    }
+    .span_footer{
+        background: #9400FF;
+        border-radius: 200px;
+        text-align: center;
+        padding: 15px 46px;
+    }
+}
+
+
+@media (max-width:770px) {
+    header{
+        background-image: url(./img/background.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 2px solid blue;
+        height: 1300px;
+        padding-bottom: 100px;
+        nav{
+            
+            display: flex;
+            max-width: 2700px;
+            justify-content: space-between;
+            .logo{
+                margin-left: 40px;
+                line-height: 80px;
+            }
+            .nav_ul{
+                display: none;
+                justify-content: space-around;
+                width: 30%;
+                margin-top: 30px;
+                font-size: 13px;
+            }
+            .icon_purchase{
+                .icooo{
+                    text-align: center;
+                    margin-top: 30px;
+                    margin-right: 40px;
+                    border: 2px solid#9400FF;
+                    background-color: #9400FF;
+                    border-radius: 200px;
+                    width: 91px;
+                    height: 21px;
+                    font-size: 13px;
+                }
+            }
+        }
+    
+        .info{
+            margin: 250px 0 0 100px;
+            .h1_info{
+                line-height: 62px;
+                font-size: 48px;
+            }
+            .span_info{
+                background: #9400FF;
+                border-radius: 200px;
+                text-align: center;
+                padding: 15px 46px;
+    
+            }
+        }
+    
+        .more_info{
+            flex-wrap: wrap;
+            font-size: 16px;
+            margin-left: 80px;
+            margin-top: 100px;
+            display: flex;
+            max-width: 740px;
+            justify-content: space-around;
+            flex-direction: row;
+            .icon_info1{
+                margin-right: 30px;
+            }
+
+            .icon_info3{
+                margin-left: 10px;
+            }
+            p{
+                margin: 10px 0;
+            }
+        }
+    }
+
+    main{
+        .main_icons{
+            display: flex;
+            justify-content: space-around;
+            max-width: 2660px;
+            align-items: center;
+            margin: 30px;
+            flex-wrap: wrap;
+        }
+        .p_more_icons{
+            margin: 20px;
+            
+            line-height: 30px;
+        }
+        .span_more_icons{
+            background: #9400FF;
+            border-radius: 200px;
+            text-align: center;
+            padding: 15px 46px;
+        }
+        .phone{
+            margin-top: 50px;
+        }
+        .icons_3d{
+            text-align: center;
+            margin: 200px 0 100px 0;
+            font-size: 15px;
+        }
+        .big{
+            text-align: center;
+            margin: 200px 0 100px 0;
+            font-size: 15px;
+            img{
+                margin: 100px 0 0 0;
+            }
+        }
+        /* .icon_types{
+            margin-right: 50px;
+            text-align: center;
+            display: grid;
+            grid-template-columns: 200px ;
+            margin: 100px;
+            img{
+                margin: 50px;
+            }
+        } */
+
+        .request{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            max-width: 3000px;
+            height: 700px;
+            justify-content: space-around;
+            .left{
+                margin: 50px;
+                
+                .h1_request{
+                    margin: 50px 0;
+                }
+                .p_request{
+                    line-height: 30px;
+                }
+                .span_request{
+                    background: #9400FF;
+                border-radius: 200px;
+                text-align: center;
+                padding: 15px 46px;
+                }
+            }
+            img{
+                width: 70%;
+                margin: 50px;
+            }
+        }
+    }
+
+    footer{
+        margin-top: 300px;
+        background-image: url(./img/Frame\ \(6\).png);
+        text-align: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 432px;
+       .h1_footer{
+           padding: 150px 0 30px 0;
+       }
+       .span_footer{
+           background: #9400FF;
+           border-radius: 200px;
+           text-align: center;
+           padding: 15px 46px;
+       }
+   }
+}
+
+.end{
+    text-align: center;
+    margin: 100px 0;
+    img{
+        padding: 10px 0;
+    }
+    p{
+        padding: 50px 0;
+        
+    }
+}
+
+@media (max-width:440px) {
+    header{
+        background-image: url(./img/background.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 2px solid blue;
+        height: 1300px;
+        padding-bottom: 100px;
+        nav{
+            
+            display: flex;
+            flex-direction: column;
+            max-width: 2700px;
+            text-align: center;
+            .logo{
+                margin-left: 40px;
+                line-height: 80px;
+            }
+            .nav_ul{
+                display: none;
+                justify-content: space-around;
+                width: 30%;
+                margin-top: 30px;
+                font-size: 13px;
+            }
+            .icon_purchase{
+                margin: auto;
+                .icooo{
+                    text-align: center;
+                    margin-top: 30px;
+                    margin-right: 40px;
+                    border: 2px solid#9400FF;
+                    background-color: #9400FF;
+                    border-radius: 200px;
+                    width: 91px;
+                    height: 21px;
+                    font-size: 13px;
+                }
+            }
+        }
+    
+        .info{
+            margin: 250px 0 0 70px;
+            .h1_info{
+                line-height: 62px;
+                font-size: 28px;
+            }
+            .span_info{
+                background: #9400FF;
+                border-radius: 200px;
+                text-align: center;
+                padding: 10px 36px;
+    
+            }
+        }
+    
+        .more_info{
+            flex-wrap: wrap;
+            font-size: 16px;
+            margin-left: 50px;
+            margin-top: 100px;
+            display: flex;
+            max-width: 740px;
+            justify-content: space-around;
+            flex-direction: row;
+            .icon_info1{
+                margin-right: 30px;
+            }
+
+            .icon_info3{
+                margin-left: 10px;
+            }
+            p{
+                margin: 10px 0;
+            }
+        }
+    }
+
+    main{
+        .icons_3d{
+            text-align: center;
+            margin: 200px 0 100px 0;
+            font-size: 10px;
+        }
+        .big{
+            text-align: center;
+            margin: 200px 0 100px 0;
+            font-size: 10px;
+            img{
+                margin: 100px 0 0 0;
+            }
+        }
+    }
+}
